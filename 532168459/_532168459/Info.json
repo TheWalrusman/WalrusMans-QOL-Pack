@@ -1,0 +1,12 @@
+﻿{
+  "Id": "_532168459",
+  "DisplayName": "WalrusMan's QOL Pack",
+  "Author": "",
+  "Version": "1.0.88",
+  "ManagerVersion": "0.25.0",
+  "Requirements": [],
+  "AssemblyName": "_532168459.dll",
+  "EntryMethod": "_532168459.Main.Load",
+  "HomePage": "",
+  "Repository": ""
+}

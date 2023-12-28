@@ -1,0 +1,12 @@
+﻿{
+  "Id": "Wrath.ModTemplate",
+  "DisplayName": "Template Mod",
+  "Author": "",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.25.0",
+  "Requirements": [],
+  "AssemblyName": "Wrath.ModTemplate.dll",
+  "EntryMethod": "Wrath.ModTemplate.Main.Load",
+  "HomePage": "",
+  "Repository": ""
+}

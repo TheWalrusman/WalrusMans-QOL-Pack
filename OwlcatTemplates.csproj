@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.3.0</PackageVersion>
+    <PackageId>Owlcat.Templates</PackageId>
+    <Title>Owlcat Mod Templates</Title>
+    <Authors>ADDB</Authors>
+    <Description>Mod Templates for Owlcat Games</Description>
+    <PackageTags>UnityModManager;Mod;Template;Owlcat</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFramework>net472</TargetFramework>
+    <PackageOutputPath>$(SolutionDir)nuget</PackageOutputPath>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**;content\**\GamePath.props" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+This is a set of QOL improvements I made for my groups co-op play-through.
+It includes the following:
+1. No "press any key" on load screens anymore. Does it for you when you load 100%.
+2. No custom mercenary recruitment profit factor cost.
+3. No character respec profit factor cost.
+4. Also turns on achievements for modded saves
+
+
+
+Installation:
+https://github.com/cabarius/ToyBox/wiki/Installing-Toybox-for-RT-(Steam-Workshop-Edition)
+This documentation is from the awesome ToyBox mod that you all should check out
