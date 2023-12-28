@@ -2,4 +2,6 @@
 ## Usage
 
 This is a UUM mod so it needs to be manually installed into your "<user account>\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader\UnityModManager"
-Extract the folder into the above location so that it looks like "<user account>\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader\UnityModManager\_532168459_***"
+
+
+Please follow this wiki I made with the ways to install the mod: https://github.com/TheWalrusman/WalrusMans-QOL-Pack/wiki/Installing-The-Mod
