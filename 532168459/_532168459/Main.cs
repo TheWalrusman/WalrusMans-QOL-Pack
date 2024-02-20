@@ -40,6 +40,7 @@ using Kingmaker.PubSubSystem.Core;
 using Kingmaker.Achievements;
 using Kingmaker.Blueprints.Root;
 using Kingmaker.Blueprints;
+using Kingmaker.UnitLogic;
 
 
 namespace _532168459
@@ -90,8 +91,8 @@ namespace _532168459
         }
     }
 
-    [HarmonyPatch(typeof(Player), (nameof(Player.GetRespecCost)))]
-    public static class Player_GetRespecCost_Patch
+    [HarmonyPatch(typeof(PartUnitProgression), (nameof(PartUnitProgression.GetRespecCost)))]
+    public static class PartUnitProgression_GetRespecCost_Patch
     {
         public static void Postfix(ref int __result)
         {
